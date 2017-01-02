@@ -1,1 +1,1 @@
-# js_l1_brain_games-s12
+# hexlet project L1 Brain Games
