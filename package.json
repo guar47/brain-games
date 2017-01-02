@@ -1,9 +1,11 @@
 {
   "name": "jsl1_braingames",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "hexlet project L1 Brain Games",
   "main": "index.js",
-  "bin" : { "brain-even" : "./bin/brain-even.js" },
+  "bin": {
+    "brain-even": "./bin/brain-even.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/guar47/js_l1_brain_games-s12.git"
