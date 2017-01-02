@@ -1,27 +1,27 @@
 {
-    "name": "hexlet_braingames",
-    "version": "0.0.1",
-    "description": "hexlet project L1 Brain Games",
-    "bin": {
-        "brain-even": "./bin/brain-even.js"
-    },
-    "scripts": {
-        "babel-node": "babel-node"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/guar47/js_l1_brain_games-s12.git"
-    },
-    "author": "Dmitrii Pashutskii",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/guar47/js_l1_brain_games-s12/issues"
-    },
-    "homepage": "https://github.com/guar47/js_l1_brain_games-s12#readme",
-    "devDependencies": {
-        "babel-cli": "*",
-        "babel-core": "*",
-        "babel-preset-env": "*",
-        "babel-preset-stage-0": "*"
-    }
+  "name": "hexlet_braingames",
+  "version": "0.0.2",
+  "description": "hexlet project L1 Brain Games",
+  "bin": {
+    "brain-even": "./bin/brain-even.js"
+  },
+  "scripts": {
+    "babel-node": "babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guar47/js_l1_brain_games-s12.git"
+  },
+  "author": "Dmitrii Pashutskii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guar47/js_l1_brain_games-s12/issues"
+  },
+  "homepage": "https://github.com/guar47/js_l1_brain_games-s12#readme",
+  "devDependencies": {
+    "babel-cli": "*",
+    "babel-core": "*",
+    "babel-preset-env": "*",
+    "babel-preset-stage-0": "*"
+  }
 }
