@@ -6,7 +6,9 @@
     "brain-even": "./bin/brain-even.js"
   },
   "scripts": {
-    "babel-node": "babel-node"
+    "babel-node": "babel-node",
+    "flow": "flow",
+    "flow-typed": "flow-typed"
   },
   "repository": {
     "type": "git",
@@ -22,6 +24,10 @@
     "babel-cli": "*",
     "babel-core": "*",
     "babel-preset-env": "*",
-    "babel-preset-stage-0": "*"
+    "babel-preset-stage-0": "*",
+    "flow-bin": "*",
+    "flow-typed": "*",
+    "babel-plugin-syntax-flow": "*",
+    "babel-plugin-transform-flow-strip-types": "*"
   }
 }
