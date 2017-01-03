@@ -8,7 +8,8 @@
   "scripts": {
     "babel-node": "babel-node",
     "flow": "flow",
-    "flow-typed": "flow-typed"
+    "flow-typed": "flow-typed",
+    "eslint": "eslint"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,10 @@
     "flow-bin": "*",
     "flow-typed": "*",
     "babel-plugin-syntax-flow": "*",
-    "babel-plugin-transform-flow-strip-types": "*"
+    "babel-plugin-transform-flow-strip-types": "*",
+    "eslint": "*",
+    "eslint-config-airbnb": "*",
+    "eslint-plugin-flowtype": "*",
+    "eslint-plugin-import": "*"
   }
 }
