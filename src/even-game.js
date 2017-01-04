@@ -2,11 +2,6 @@
 
 import readlineSync from 'readline-sync';
 
-console.log('Welcome to the Brain Games!');
-console.log('Answer "yes" if number odd otherwise answer "no".');
-const name = readlineSync.question('May I have your name?: ');
-console.log(`Hello ${name}`);
-
 const getRandom = () => Math.floor((Math.random() * 100) + 1);
 
 const getAnswer = () => {
@@ -29,6 +24,11 @@ const getCorrectAnswer = (number) => {
 };
 
 export default () => {
+  console.log('Welcome to the Brain Games!');
+  console.log('Answer "yes" if number odd otherwise answer "no".');
+  const name = readlineSync.question('May I have your name?: ');
+  console.log(`Hello ${name}`);
+
   let win;
   for (let i = 3; i > 0; i -= 1) {
     const curNumber = getRandom();
