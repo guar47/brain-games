@@ -1,11 +1,12 @@
 {
   "name": "hexlet_braingames",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "hexlet project L1 Brain Games",
   "main": "index.js",
   "bin": {
     "brain-even": "./bin/brain-even.js",
-    "brain-calc": "./bin/brain-calc.js"
+    "brain-calc": "./bin/brain-calc.js",
+    "brain-divisor": "./bin/brain-divisor.js"
   },
   "scripts": {
     "babel-node": "babel-node",
