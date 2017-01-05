@@ -35,6 +35,7 @@
     "flow-typed": "*",
     "babel-plugin-syntax-flow": "*",
     "babel-plugin-transform-flow-strip-types": "*",
+    "babel-eslint": "*",
     "eslint": "*",
     "eslint-config-airbnb": "*",
     "eslint-plugin-flowtype": "*",

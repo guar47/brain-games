@@ -1,4 +1,5 @@
 // @flow
+/* eslint-disable no-console */
 
 import readlineSync from 'readline-sync';
 
@@ -12,7 +13,8 @@ const getAnswer = (checkAnswer) => {
     console.log('Your answer is incorrect, please type correct answer');
   }
 };
-const playGame = (message, getExpression, toQuestion, getCorrectAnswer, checkAnswer) => {
+const playGame = (message: string, getExpression: Function,
+  toQuestion: Function, getCorrectAnswer: Function, checkAnswer: Function) => {
   console.log('Welcome to the Brain Games!');
   console.log(message);
   const name = readlineSync.question('May I have your name?: ');
@@ -22,12 +24,12 @@ const playGame = (message, getExpression, toQuestion, getCorrectAnswer, checkAns
   for (let i = 1; i < 4; i += 1) {
     const curExpression = getExpression(i);
     console.log(`Question: ${toQuestion(curExpression)}`);
-    const curAnswer = getAnswer(checkAnswer);
+    const curAnswer = String(getAnswer(checkAnswer));
     const correctAnswer = getCorrectAnswer(curExpression);
     if (String(curAnswer) === String(correctAnswer)) {
       console.log('Correct!');
       win = true;
-    } else if (String(curAnswer) !== String(correctAnswer)) {
+    } else if (curAnswer !== correctAnswer) {
       win = false;
       console.log(`${curAnswer} is wrong answer ;(. Correct answer was ${correctAnswer}`);
       break;
