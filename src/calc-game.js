@@ -1,6 +1,5 @@
 // @flow
 
-import readlineSync from 'readline-sync';
 import {
   getRandom,
   playGame,
@@ -28,14 +27,11 @@ export default () => {
     return expression;
   };
   const toQuestion = expression => `${expression.firstNumber} ${expression.sign} ${expression.secondNumber}`;
-  const getAnswer = () => {
-    for (;;) {
-      const answer = Number(readlineSync.question('Your answer: '));
-      if (Number.isInteger(answer)) {
-        return answer;
-      }
-      console.log('Your answer is incorrect, please type an integer number');
+  const checkAnswer = (answer) => {
+    if (Number.isInteger(Number(answer))) {
+      return true;
     }
+    return false;
   };
   const getCorrectAnswer = (expression) => {
     let answer = 0;
@@ -54,5 +50,5 @@ export default () => {
     }
     return answer;
   };
-  playGame(message, getExpression, toQuestion, getCorrectAnswer, getAnswer);
+  playGame(message, getExpression, toQuestion, getCorrectAnswer, checkAnswer);
 };

@@ -1,6 +1,5 @@
 // @flow
 
-import readlineSync from 'readline-sync';
 import {
   getRandom,
   playGame,
@@ -10,16 +9,11 @@ export default () => {
   const message = 'Answer "yes" if number odd otherwise answer "no".';
   const getExpression = () => getRandom();
   const toQuestion = expression => `${expression}`;
-  const getAnswer = () => {
-    for (;;) {
-      const answer = readlineSync.question('Your answer: ');
-      if (answer === 'yes') {
-        return 'yes';
-      } else if (answer === 'no') {
-        return 'no';
-      }
-      console.log(`${answer} is incorrect, please type "yes" or "no"`);
+  const checkAnswer = (answer) => {
+    if (answer === 'yes' || answer === 'no') {
+      return true;
     }
+    return false;
   };
   const getCorrectAnswer = (number) => {
     if (number % 2 === 0) {
@@ -27,5 +21,5 @@ export default () => {
     }
     return 'no';
   };
-  playGame(message, getExpression, toQuestion, getCorrectAnswer, getAnswer);
+  playGame(message, getExpression, toQuestion, getCorrectAnswer, checkAnswer);
 };
