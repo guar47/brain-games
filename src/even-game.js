@@ -3,7 +3,7 @@
 import {
   getRandom,
   playGame,
-} from '../index';
+} from '../';
 
 export default () => {
   const message = 'Answer "yes" if number odd otherwise answer "no".';

@@ -3,7 +3,7 @@
 import {
   getRandom,
   playGame,
-} from '../index';
+} from '../';
 
 export default () => {
   const message = 'What is the result of the expression?';
