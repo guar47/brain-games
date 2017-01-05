@@ -22,6 +22,7 @@ export default () => {
   };
   const getCorrectAnswer = (expression) => {
     let i = 0;
+    let result;
     if (expression.firstNumber > expression.secondNumber) {
       i = expression.secondNumber;
     } else {
@@ -29,10 +30,12 @@ export default () => {
     }
     while (i <= expression.firstNumber || i <= expression.secondNumber) {
       if (expression.firstNumber % i === 0 && expression.secondNumber % i === 0) {
-        return i;
+        result = i;
+        break;
       }
       i -= 1;
     }
+    return result;
   };
   playGame(message, getExpression, toQuestion, getCorrectAnswer, checkAnswer);
 };
