@@ -25,7 +25,9 @@ const getExpression = (attempt) => {
   }
   return expression;
 };
-const toQuestion = expression => `${expression.firstNumber} ${expression.sign} ${expression.secondNumber}`;
+const toQuestion = expression => `${expression.firstNumber}
+${expression.sign}
+${expression.secondNumber}`;
 const checkAnswer = (answer) => {
   if (Number.isInteger(Number(answer))) {
     return true;
