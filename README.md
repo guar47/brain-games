@@ -7,9 +7,11 @@
 Games list:
 * brain-calc.js
 * brain-even.js
+* brain-divisor.js
+* brain-balance.js
 
-Install `Make install`
+Install: `Make install`
 
-Run `Make run G='game name'`
+Run: `Make run G='game name'`
 
-Lint checker `Make lint`
+ESLint checker: `Make lint`
