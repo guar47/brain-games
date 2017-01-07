@@ -9,8 +9,8 @@ export default () => {
   const message = 'What is the result of the expression?';
   const getExpression = (attempt) => {
     const expression = {};
-    expression.firstNumber = getRandom();
-    expression.secondNumber = getRandom();
+    expression.firstNumber = getRandom(1, 100);
+    expression.secondNumber = getRandom(1, 100);
     switch (attempt) {
       case 1:
         expression.sign = '+';

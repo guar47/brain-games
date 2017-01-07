@@ -3,7 +3,7 @@
 
 import readlineSync from 'readline-sync';
 
-const getRandom = () => Math.floor((Math.random() * 100) + 1);
+const getRandom = (min, max) => Math.floor(Math.random() * (max - min)) + min;
 const getAnswer = (checkAnswer) => {
   for (;;) {
     const answer = readlineSync.question('Your answer: ');

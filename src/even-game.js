@@ -7,7 +7,7 @@ import {
 
 export default () => {
   const message = 'Answer "yes" if number odd otherwise answer "no".';
-  const getExpression = () => getRandom();
+  const getExpression = () => getRandom(1, 100);
   const toQuestion = expression => `${expression}`;
   const checkAnswer = (answer) => {
     if (answer === 'yes' || answer === 'no') {

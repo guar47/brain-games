@@ -9,8 +9,8 @@ export default () => {
   const message = 'Find the greatest common divisor of given numbers.';
   const getExpression = () => {
     const expression = {};
-    expression.firstNumber = getRandom();
-    expression.secondNumber = getRandom();
+    expression.firstNumber = getRandom(1, 100);
+    expression.secondNumber = getRandom(1, 100);
     return expression;
   };
   const toQuestion = expression => `${expression.firstNumber} ${expression.secondNumber}`;
