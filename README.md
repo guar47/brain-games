@@ -9,6 +9,7 @@ Games list:
 * brain-even.js
 * brain-divisor.js
 * brain-balance.js
+* brain-progression.js
 
 Install: `Make install`
 
