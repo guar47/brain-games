@@ -8,7 +8,7 @@
     "brain-calc": "./bin/brain-calc.js",
     "brain-divisor": "./bin/brain-divisor.js",
     "brain-balance": "./bin/brain-balance.js",
-    "brain-progression": "./bin/brain-progression"
+    "brain-progression": "./bin/brain-progression.js"
   },
   "scripts": {
     "babel-node": "babel-node",
