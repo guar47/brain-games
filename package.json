@@ -1,47 +1,47 @@
 {
-    "name": "hexlet_braingames",
-    "version": "0.5.1",
-    "description": "hexlet project L1 Brain Games",
-    "main": "index.js",
-    "bin": {
-        "brain-even": "./bin/brain-even.js",
-        "brain-calc": "./bin/brain-calc.js",
-        "brain-divisor": "./bin/brain-divisor.js",
-        "brain-balance": "./bin/brain-balance.js",
-        "brain-progression": "./bin/brain-progression"
-    },
-    "scripts": {
-        "babel-node": "babel-node",
-        "flow": "flow",
-        "flow-typed": "flow-typed",
-        "eslint": "eslint"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/guar47/js_l1_brain_games-s12.git"
-    },
-    "author": "Dmitrii Pashutskii",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/guar47/js_l1_brain_games-s12/issues"
-    },
-    "homepage": "https://github.com/guar47/js_l1_brain_games-s12#readme",
-    "dependencies": {
-        "readline-sync": "*"
-    },
-    "devDependencies": {
-        "babel-cli": "*",
-        "babel-core": "*",
-        "babel-preset-env": "*",
-        "babel-preset-stage-0": "*",
-        "flow-bin": "*",
-        "flow-typed": "*",
-        "babel-plugin-syntax-flow": "*",
-        "babel-plugin-transform-flow-strip-types": "*",
-        "babel-eslint": "*",
-        "eslint": "*",
-        "eslint-config-airbnb": "*",
-        "eslint-plugin-flowtype": "*",
-        "eslint-plugin-import": "*"
-    }
+  "name": "hexlet_braingames",
+  "version": "0.5.2",
+  "description": "hexlet project L1 Brain Games",
+  "main": "index.js",
+  "bin": {
+    "brain-even": "./bin/brain-even.js",
+    "brain-calc": "./bin/brain-calc.js",
+    "brain-divisor": "./bin/brain-divisor.js",
+    "brain-balance": "./bin/brain-balance.js",
+    "brain-progression": "./bin/brain-progression"
+  },
+  "scripts": {
+    "babel-node": "babel-node",
+    "flow": "flow",
+    "flow-typed": "flow-typed",
+    "eslint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guar47/js_l1_brain_games-s12.git"
+  },
+  "author": "Dmitrii Pashutskii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guar47/js_l1_brain_games-s12/issues"
+  },
+  "homepage": "https://github.com/guar47/js_l1_brain_games-s12#readme",
+  "dependencies": {
+    "readline-sync": "*"
+  },
+  "devDependencies": {
+    "babel-cli": "*",
+    "babel-core": "*",
+    "babel-preset-env": "*",
+    "babel-preset-stage-0": "*",
+    "flow-bin": "*",
+    "flow-typed": "*",
+    "babel-plugin-syntax-flow": "*",
+    "babel-plugin-transform-flow-strip-types": "*",
+    "babel-eslint": "*",
+    "eslint": "*",
+    "eslint-config-airbnb": "*",
+    "eslint-plugin-flowtype": "*",
+    "eslint-plugin-import": "*"
+  }
 }
