@@ -18,14 +18,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/guar47/js_l1_brain_games-s12.git"
+    "url": "git+https://github.com/guar47/brainGames.git"
   },
   "author": "Dmitrii Pashutskii",
   "license": "ISC",
+  "homepage": "https://github.com/guar47/brainGames#readme",
   "bugs": {
-    "url": "https://github.com/guar47/js_l1_brain_games-s12/issues"
+    "url": "https://github.com/guar47/brainGames/issues"
   },
-  "homepage": "https://github.com/guar47/js_l1_brain_games-s12#readme",
   "dependencies": {
     "readline-sync": "*"
   },
